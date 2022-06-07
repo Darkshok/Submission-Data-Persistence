@@ -17,10 +17,15 @@ public class MenuUIHandler : MonoBehaviour
     {
         ScoreManager.Instance.PlayerName = NameInput.text;
 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void OpenHighScore()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void OpenSettings()
     {
         SceneManager.LoadScene(1);
     }

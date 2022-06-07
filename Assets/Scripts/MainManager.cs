@@ -15,14 +15,18 @@ public class MainManager : MonoBehaviour
     private bool _started = false;
     private bool _gameOver = false;
 
-    private int _points;    
+    private int _points;
 
     private void Start()
     {
+        //loading settings
+        _lineCount = SettingsManager.Instance.LineCount;
+        //---
+
         const float step = 0.6f;
         int perLine = Mathf.FloorToInt(4.0f / step);
-        
-        int[] pointCountArray = new [] {1,1,2,2,5,5};
+
+        int[] pointCountArray = new[] { 1, 1, 2, 2, 5, 5, 9 };
         for (int i = 0; i < _lineCount; ++i)
         {
             for (int x = 0; x < perLine; ++x)

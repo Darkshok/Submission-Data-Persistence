@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menu.unity
     guid: 6137ad41de2192346b6c097912765542
   - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 5456f4867fe368d48903650037c88df0
+  - enabled: 1
     path: Assets/Scenes/High Score.unity
     guid: 29bb6e3bc911c9e4ebdc15d784634ae4
   - enabled: 1

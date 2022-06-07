@@ -66,6 +66,18 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    public void ClearScore()
+    {
+        string path = Application.persistentDataPath + "/savefile.json";
+
+        if(File.Exists(path))
+        {
+            File.Delete(path);
+        }
+
+        InitListOfRecords();
+    }
+
     [System.Serializable]
     public struct ScoreData
     {

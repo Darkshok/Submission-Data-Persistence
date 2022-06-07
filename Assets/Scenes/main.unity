@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _brickPrefab: {fileID: 897975713663390409, guid: 63f25b9733d2bcd4fa2ff6de1264c739, type: 3}
-  _lineCount: 6
+  _lineCount: 7
   _ball: {fileID: 177912862}
   _scoreText: {fileID: 188020406}
   _bestScoreText: {fileID: 2078529056}
